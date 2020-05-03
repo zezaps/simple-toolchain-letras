@@ -1,12 +1,15 @@
 import React from 'react'
-import Canciones from '../canciones/Canciones'
+import Tracks from '../canciones/Tracks'
+import Search from '../canciones/Search'
 
 const Index = () => {
     return (
         <React.Fragment>
-            <Canciones />
+            <Search />
+            <Tracks />
         </React.Fragment>
     )
+
 }
 
 export default Index;
